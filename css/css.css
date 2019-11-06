@@ -1,0 +1,219 @@
+/* Font
+———————————————————— */
+@font-face {
+    font-family: typewriter;
+    src: url(../fonts/typewriter.ttf)
+}
+
+/* Structure
+———————————————————— */
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fddd66;
+    font-family: sans-serif;
+}
+#cabecera{
+    clear: both;
+    margin: 0 auto;
+    position: relative;
+    width: 77%;
+    height: 400px;
+    background-image: url(../img/banner.jpg);
+}
+#cuerpo{
+    font-family: typewriter;
+    text-align: justify;
+    margin: 0 auto;
+    clear: both;
+    position:relative;
+    width: 77%;
+    background-color: #fff;
+}
+#pie{
+    font-family: typewriter;
+    margin: 0 auto;
+    clear: both;
+    position:relative;
+    width: 77%;
+    height: 60px;
+    background-color: #a9253d;
+}
+
+
+/* Menu
+———————————————————— */
+
+#menu, #menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: flex-start; 
+}
+
+#menu {
+    width: 77%;
+    margin: 3px auto;
+    border: 1px solid #a9a9a9;
+    background-color: #a9a9a9;
+}
+
+#menu:before,
+#menu:after {
+    content: "";
+    display: table;
+}
+
+#menu:after {
+    clear: both;
+}
+
+#menu {
+    zoom:1;
+}
+
+#menu li {
+    float: left;
+    border-right: 1px solid #222;
+    box-shadow: 1px 0 0 #444;
+    position: relative;
+}
+
+#menu a {
+    float: left;
+    padding: 12px 30px;
+    color: #000;
+    text-transform: uppercase;
+    font: bold 12px;
+    font-family: typewriter;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #000;
+}
+
+#menu li:hover > a {
+    color: #fafafa;
+}
+
+*html #menu li a:hover { /* IE6 only */
+    color: #a9253d;
+}
+
+#menu ul {
+    margin: 20px 0 0 0;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 38px;
+    left: 0;
+    z-index: 1;    
+    background: #a9a9a9; 
+    box-shadow: 0 -1px 0 rgba(255,255,255,.3);  
+    border-radius: 3px;
+    transition: all .2s ease-in-out;
+}
+
+#menu li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    margin: 0;
+}
+
+#menu ul ul {
+    top: 0;
+    left: 150px;
+    margin: 0 0 0 20px;
+    box-shadow: -1px 0 0 rgba(255,255,255,.3);      
+}
+
+#menu ul li {
+    float: none;
+    display: block;
+    border: 0;
+    box-shadow: 0 1px 0 #111, 0 2px 0 #666;
+}
+
+#menu ul li:last-child {   
+    box-shadow: none;    
+}
+
+#menu ul a {    
+    padding: 10px;
+    width: 130px;
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+}
+
+#menu ul a:hover {
+    background-color: #a9253d;
+}
+
+
+/* Boxes
+———————————————————— */
+
+.contenedor_101 {
+    width: 97%;
+    float: none;
+    margin: 15px;
+    text-align: justify;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.contenedor_100 {
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 5px;
+    width: 97%;
+    float: left;
+    margin: 5px;
+    overflow: hidden;
+}
+
+.contenedor_50 {
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 5px;
+    width: 47%;
+    height: 610px;
+    float: left;
+    margin: 5px;
+    overflow: hidden;
+}
+
+.contenedor_51 {
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 5px;
+    width: 60%;
+    float: left;
+    margin: 5px;
+    overflow: hidden;
+}
+
+.contenedor_52 {
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 5px;
+    width: 350px;
+    height: 350px;
+    float: right;
+    margin: 5px;
+    overflow: hidden;
+}
+
+.contenedor_55 {
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 5px;
+    width: 47%;
+    height: 300px;
+    float: left;
+    margin: 5px;
+    overflow: hidden;
+}
