@@ -1,0 +1,10 @@
+<widget xmlns="http://www.w3.org/ns/widgets" 
+	xmlns:gap="http://phonegap.com/ns/1.0" id="com.iessanvicente" 
+		versionCode="1" version="0.0.1">
+	<name>Freya and Frus' App</name>
+	<description>A thing that does stuff and things</description>
+	<author email="freya_mann@aol.com">Freya Mann and Frus Navarrete</author>
+	<access origin="*"/>
+	<plugin name="cordova-plugin-whitelist"/>
+	<icon src="icon.png"/>
+</widget>
